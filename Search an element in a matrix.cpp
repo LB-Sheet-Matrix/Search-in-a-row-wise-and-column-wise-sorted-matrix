@@ -1,7 +1,7 @@
 /*
 Naive approach:
 >> traverse the array and to search elements one by one using 2 nested for loops.
->> Check every element with x and if the element is found then print “element found”
+>> Check every element with x and if the element is found then print â€œelement foundâ€
 
 TC => O(n*n) = O(n^2)
 SC => O(1)
@@ -31,11 +31,6 @@ Binary seach wala likh lo baad me
 TC => O(log(n)+log(n)) = O(log(n))
 SC => O(1)
 */
-
-//ISSUES:
-
-// Make input as vector. error aara usme isiliye static input liya
-// Third approach implement karo
 
 #include<iostream>
 #include<vector>                        
